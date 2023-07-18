@@ -1,0 +1,9 @@
+.btn-order {
+    background-color: #000;
+    background-color: rgba(0,0,0,.9);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 1;
+    color: #efe512
+}
