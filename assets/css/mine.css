@@ -7,3 +7,9 @@
     opacity: 1;
     color: #efe512
 }
+
+@media screen and (max-width: 400px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}

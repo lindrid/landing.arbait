@@ -29,7 +29,7 @@
   <header id="header" class="sticky-top bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX">
 
     <!-- Navbar 1 - Bootstrap Brain Component -->
-    <nav id="scrollspyNav" class="navbar navbar-expand-lg wave-bg-blue bsb-navbar
+    <nav id="start" class="navbar navbar-expand-lg wave-bg-blue bsb-navbar
     bsb-navbar-hover bsb-navbar-caret bsb-tpl-navbar-sticky" data-bsb-sticky-target="#header">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -48,34 +48,40 @@
           <div class="offcanvas-body">
             <ul id="bsb-tpl-navbar" class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link active" href="#scrollspyNav"
+                <a class="nav-link active" href="#start"
                    aria-current="page" data-bs-dismiss="offcanvas"
                    data-bs-target="#offcanvasNavbar"
                 >Начало</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyServices"
+                <a class="nav-link" href="#services"
                    data-bs-dismiss="offcanvas"
                    data-bs-target="#offcanvasNavbar"
                 >Услуги</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPricing"
+                <a class="nav-link" href="#pricing"
                    data-bs-dismiss="offcanvas"
                    data-bs-target="#offcanvasNavbar"
                 >Расценки</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyPortfolio"
+                <a class="nav-link" href="#gallery"
                    data-bs-dismiss="offcanvas"
                    data-bs-target="#offcanvasNavbar"
                 >Галлерея</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#scrollspyAbout"
+                <a class="nav-link" href="#about"
                    data-bs-dismiss="offcanvas"
                    data-bs-target="#offcanvasNavbar"
                 >О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mission"
+                   data-bs-dismiss="offcanvas"
+                   data-bs-target="#offcanvasNavbar"
+                >Миссия</a>
               </li>
             </ul>
           </div>
@@ -86,16 +92,14 @@
   </header>
 
   <!-- Hero 2 - Bootstrap Brain Component -->
-  <section id="scrollspyHero" class="wave-bg-blue py-5 py-xl-8 py-xxl-10">
+  <section id="scrollspyHero" class="wave-bg-blue py-xl-8 py-xxl-10">
     <div class="container overflow-hidden">
-      <div class="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-between">
+      <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
         <div class="col-12 col-lg-6 order-1 order-lg-0">
           <h1 class="display-3 fw-bolder mb-3">
-              <mark class="wave-highlight wave-highlight-blue">
-                <span class="wave-font-hw display-2 text-accent fw-normal">Служба</span>
-              </mark> заказа рабочих и грузовых машин.
+               Служба заказа рабочих и грузовых машин.
           </h1>
-          <p class="fs-4 mb-5">
+          <p class="fs-4 mb-lg-5">
             Отобранный персонал. Качественный сервис.
           </p>
           <div class="d-grid gap-2 d-sm-flex">
@@ -103,9 +107,9 @@
             <button type="button" class="btn btn-2xl rounded-pill px-4" style="border-color: black; border-radius: 2px">Позвонить</button>
           </div>
         </div>
-        <div class="col-12 col-lg-5 text-center">
+        <span class="col-12 col-lg-5 text-center">
           <img class="img-fluid" loading="lazy" src="./assets/img/hero/hero-home2.jpg" alt="" style="border-radius: 30%">
-        </div>
+        </span>
       </div>
     </div>
   </section>
@@ -115,18 +119,21 @@
 
     <!-- Section - Services -->
     <!-- Service 3 - Bootstrap Brain Component -->
-    <section id="scrollspyServices" class="py-5 py-xl-8 py-xxl-16">
+    <section id="services" class="py-5 py-xl-8 py-xxl-16">
       <div class="container mt-4 mb-5 mb-md-6 mb-xl-10">
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">Вы получите быстрый и <br><mark class="wave-highlight wave-highlight-yellow"><span class="wave-font-hw display-1 text-accent fw-normal">качественный</span></mark> сервис по таким услугам:</h2>
+            <h2 class="display-3 fw-bolder mb-4">Вы получите быстрый и
+              <br><span class="wave-font-hw display-1 text-accent fw-normal">качественный</span>
+              сервис по таким услугам:
+            </h2>
           </div>
         </div>
       </div>
 
       <div class="container overflow-hidden">
-        <div class="row gy-5 gy-md-6 gx-md-4 gy-lg-0 gx-xxl-5">
-          <div class="col-12 col-sm-6 col-lg-3">
+        <div class="row gy-5 gy-md-6 gx-md-6 gy-lg-0 gx-xxl-5">
+          <div class="col-6 col-sm-6 col-lg-3">
             <div class="badge wave-bg-yellow text-primary p-3 mb-4">
               <img src="assets/img/services/loaders.png">
             </div>
@@ -138,7 +145,7 @@
               </svg>
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-6 col-sm-6 col-lg-3">
             <div class="badge wave-bg-green text-primary p-3 mb-4">
               <img src="assets/img/services/handyman.png">
             </div>
@@ -150,7 +157,7 @@
               </svg>
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-6 col-sm-6 col-lg-3">
             <div class="badge wave-bg-pink text-primary p-3 mb-4">
               <img src="assets/img/services/moving.png">
             </div>
@@ -162,7 +169,7 @@
               </svg>
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-6 col-sm-6 col-lg-3">
             <div class="badge wave-bg-cyan text-primary p-3 mb-4">
               <img src="assets/img/services/trash.png">
             </div>
@@ -181,11 +188,11 @@
 
     <!-- Section - Pricing -->
     <!-- Pricing 1 - Bootstrap Brain Component -->
-    <section id="scrollspyPricing" class="wave-bg-sea-shell py-5 py-xl-8 py-xxl-16">
+    <section id="pricing" class="wave-bg-sea-shell py-5 py-xl-8 py-xxl-16">
       <div class="container">
         <div class="row gy-5 gy-lg-0 gx-lg-8 align-items-center">
-          <div class="col-12 col-lg-5">
-            <h2 class="display-3 fw-bolder mb-4">Наши <mark class="wave-highlight wave-highlight-yellow"><span class="wave-font-hw display-1 text-accent fw-normal">цены</span></mark></h2>
+          <div class="mt-4 col-12 col-lg-5">
+            <h2 class="display-3 fw-bolder mb-4">Наши <span class="wave-font-hw display-1 text-accent fw-normal">цены</span></h2>
             <p class="fs-4 mb-4 mb-xl-5">На примере средней цены грузчика в час</p>
           </div>
           <div class="col-12 col-lg-7">
@@ -193,8 +200,8 @@
               <div class="col-12 col-md-6">
                 <div class="card border-0 border-bottom border-primary shadow-sm">
                   <div class="card-body p-4 p-xxl-5">
-                    <h2 class="h4 mb-2">Звонок</h2>
-                    <h4 class="display-3 fw-bold text-primary mb-0">375</h4>
+                    <h2 class="h4 mb-2">Заказ по звонку</h2>
+                    <h4 class="display-3 fw-bold text-primary mb-0">400</h4>
                     <p class="text-secondary mb-4">р / час</p>
                     <ul class="list-group list-group-flush mb-4">
                       <li class="list-group-item">
@@ -217,7 +224,7 @@
               <div class="col-12 col-md-6">
                 <div class="card border-0 border-bottom border-primary shadow-lg pt-md-4 pb-md-4 mt-md-n4">
                   <div class="card-body p-4 p-xxl-5">
-                    <h2 class="h4 mb-2">Сайт</h2>
+                    <h2 class="h4 mb-2">Заказ на сайте</h2>
                     <h4 class="display-3 fw-bold text-primary mb-0">350</h4>
                     <p class="text-secondary mb-4">р / час</p>
                     <ul class="list-group list-group-flush mb-4">
@@ -251,11 +258,11 @@
 
     <!-- Section - Portfolio -->
     <!-- Masonry 1 - Bootstrap Brain Component -->
-    <section id="scrollspyPortfolio" class="py-5 py-xl-8 py-xxl-16">
-      <div class="container mb-5 mb-md-6 mb-xl-10">
+    <section id="gallery" class="py-5 py-xl-8 py-xxl-16">
+      <div class="container mt-4 mb-5 mb-md-6 mb-xl-10">
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">Meet our portfolio to <br><mark class="wave-highlight wave-highlight-yellow"><span class="wave-font-hw display-1 text-accent fw-normal">kickstart</span></mark> your success.</h2>
+            <h2 class="display-3 fw-bolder mb-4">Наша скромная <br><span class="wave-font-hw display-1 text-accent fw-normal">галерея</span></h2>
           </div>
         </div>
       </div>
@@ -265,11 +272,11 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/project-landscape-1.jpg" alt="">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/workers/1.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">Canvas Lover</h3>
-                <div class="text-white bsb-hover-fadeInRight">Photography</div>
+                <h3 class="text-white bsb-hover-fadeInLeft">Грузим</h3>
+                <div class="text-white bsb-hover-fadeInRight">возим</div>
               </figcaption>
             </figure>
           </div>
@@ -277,11 +284,11 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/portfolio/project-portrait-1.jpg" alt="">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/workers/2.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInUp">Red Lava</h3>
-                <div class="text-white bsb-hover-fadeInDown">Nature</div>
+                <h3 class="text-white bsb-hover-fadeInUp">Выгрузка</h3>
+                <div class="text-white bsb-hover-fadeInDown">труб</div>
               </figcaption>
             </figure>
           </div>
@@ -289,11 +296,11 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/project-landscape-2.jpg" alt="">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/workers/3.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">Jungle Book</h3>
-                <div class="text-white bsb-hover-fadeInRight">Adventure</div>
+                <h3 class="text-white bsb-hover-fadeInLeft">Брикеты</h3>
+                <div class="text-white bsb-hover-fadeInRight">с мороженой рыбой</div>
               </figcaption>
             </figure>
           </div>
@@ -301,11 +308,11 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/portfolio/project-portrait-2.jpg" alt="">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/workers/h8.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInUp">Wavy Road</h3>
-                <div class="text-white bsb-hover-fadeInDown">Adventure</div>
+                <h3 class="text-white bsb-hover-fadeInUp">Клининг</h3>
+                <div class="text-white bsb-hover-fadeInDown">Мойка керхером</div>
               </figcaption>
             </figure>
           </div>
@@ -313,11 +320,11 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/portfolio/project-portrait-3.jpg" alt="">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/workers/h7.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInUp">Golden Leaves</h3>
-                <div class="text-white bsb-hover-fadeInDown">Photography</div>
+                <h3 class="text-white bsb-hover-fadeInUp">Собираем</h3>
+                <div class="text-white bsb-hover-fadeInDown">уголь в мешки</div>
               </figcaption>
             </figure>
           </div>
@@ -325,35 +332,35 @@
           <div class="col-12 col-md-4 bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/portfolio/project-portrait-4.jpg" alt="">
+                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./assets/img/workers/h6.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInUp">Minimal Notions</h3>
-                <div class="text-white bsb-hover-fadeInDown">Design</div>
+                <h3 class="text-white bsb-hover-fadeInUp">Покраска</h3>
+                <div class="text-white bsb-hover-fadeInDown">мотора</div>
               </figcaption>
             </figure>
           </div>
 
-          <div class="col-12 col-md-4 bsb-project-2-item">
+          <div class="bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/project-landscape-3.jpg" alt="">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/workers/m1.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">Bright Winks</h3>
-                <div class="text-white bsb-hover-fadeInRight">Design</div>
+                <h3 class="text-white bsb-hover-fadeInLeft">Офисный</h3>
+                <div class="text-white bsb-hover-fadeInRight">переезд</div>
               </figcaption>
             </figure>
           </div>
 
-          <div class="col-12 col-md-4 bsb-project-2-item">
+          <div class="bsb-project-2-item">
             <figure class="rounded rounded-3 overflow-hidden bsb-hover-overlay m-0">
               <a href="#!">
-                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/portfolio/project-landscape-4.jpg" alt="">
+                <img class="img-fluid bsb-scale-up bsb-hover-scale" loading="lazy" src="./assets/img/workers/h5.jpeg" alt="">
               </a>
               <figcaption>
-                <h3 class="text-white bsb-hover-fadeInLeft">Innovative Day</h3>
-                <div class="text-white bsb-hover-fadeInRight">Photography</div>
+                <h3 class="text-white bsb-hover-fadeInLeft">Земляные</h3>
+                <div class="text-white bsb-hover-fadeInRight">работы</div>
               </figcaption>
             </figure>
           </div>
@@ -362,15 +369,15 @@
     </section>
 
     <!-- Section - About -->
-    <section id="scrollspyAbout" class="wave-bg-alice-blue py-5 py-xl-8 py-xxl-16">
+    <section id="about" class="wave-bg-alice-blue py-5 py-xl-8 py-xxl-16">
       <!-- FAQ 1 - Bootstrap Brain Component -->
-      <div class="container">
+      <div class="container mt-4">
         <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
           <div class="col-12 col-lg-6">
             <img class="img-fluid rounded" loading="lazy" src="./assets/img/about/about-img-1.png" alt="">
           </div>
           <div class="col-12 col-lg-6">
-            <h2 class="display-3 fw-bolder mb-4">Большой <mark class="wave-highlight wave-highlight-blue"><span class="wave-font-hw display-1 text-accent fw-normal">опыт</span></mark><br> - наше безусловное преимущество</h2>
+            <h2 class="display-3 fw-bolder mb-4">Большой <span class="wave-font-hw display-1 text-accent fw-normal">опыт</span><br> - наше безусловное преимущество</h2>
             <p class="fs-4 mb-5">Мы верим, что открытость и честность перед клиентами сделают мир лучше!</p>
           </div>
         </div>
@@ -379,7 +386,7 @@
       <!-- Fact 1 - Bootstrap Brain Component -->
       <div class="container pt-5 pt-xl-8 pt-xxl-16">
         <div class="row gy-4">
-          <div class="col-12 col-sm-6 col-xl-3">
+          <div class="col-12 col-sm-6 col-xl-4">
             <div class="card border-0 border-bottom border-primary shadow-sm">
               <div class="card-body text-center p-4 p-xxl-5">
                 <div class="btn btn-primary btn-circle btn-circle-4xl wave-bg-green border-0 text-primary pe-none mb-2">
@@ -393,7 +400,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-xl-3">
+          <div class="col-12 col-sm-6 col-xl-4">
             <div class="card border-0 border-bottom border-primary shadow-sm">
               <div class="card-body text-center p-4 p-xxl-5">
                 <div class="btn btn-primary btn-circle btn-circle-4xl wave-bg-yellow border-0 text-primary pe-none mb-2">
@@ -407,21 +414,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-xl-3">
-            <div class="card border-0 border-bottom border-primary shadow-sm">
-              <div class="card-body text-center p-4 p-xxl-5">
-                <div class="btn btn-primary btn-circle btn-circle-4xl wave-bg-pink border-0 text-primary pe-none mb-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-droplet" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
-                    <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
-                  </svg>
-                </div>
-                <h3 class="h1 mb-2">20000</h3>
-                <p class="fs-5 mb-0 text-secondary">Выходов на заявки</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-xl-3">
+          <div class="col-12 col-sm-6 col-xl-4">
             <div class="card border-0 border-bottom border-primary shadow-sm">
               <div class="card-body text-center p-4 p-xxl-5">
                 <div class="btn btn-primary btn-circle btn-circle-4xl wave-bg-cyan border-0 text-primary pe-none mb-2">
@@ -441,11 +434,11 @@
 
     <!-- Section - Testimonial -->
     <!-- Testimonial 2 - Bootstrap Brain Component -->
-    <section class="py-5 py-xl-8 py-xxl-16">
-      <div class="container mb-5 mb-md-6 mb-xl-10">
+    <section id="mission" class="py-5 py-xl-8 py-xxl-16">
+      <div class="container mt-4 mb-5 mb-md-6 mb-xl-10">
         <div class="row justify-content-md-center">
           <div class="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 text-center">
-            <h2 class="display-3 fw-bolder mb-4">Наша миссия - это <br><mark class="wave-highlight wave-highlight-yellow"><span class="wave-font-hw display-1 text-accent fw-normal">довольные</span></mark> клиенты</h2>
+            <h2 class="display-3 fw-bolder mb-4">Наша миссия - это <br><span class="wave-font-hw display-1 text-accent fw-normal">довольные</span> клиенты</h2>
           </div>
         </div>
       </div>
